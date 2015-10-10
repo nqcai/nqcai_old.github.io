@@ -1,0 +1,288 @@
+@CHARSET "UTF-8";
+
+.ipad-move {
+    display: none;
+}
+
+
+
+
+
+
+
+/* TABLETS */
+
+@media screen and (max-width: 1024px) {
+    #welcome em {
+        font-size: 4em;
+    }
+
+    #welcome h1 {
+        font-size: 2.5em; 
+    }
+
+    #welcome h2 {
+        font-size: 1.7em;
+    }
+    
+    nav li {
+        width: 100px;
+    }
+    
+    nav ul {
+        width: 300px; 
+    }
+    
+    nav a {
+        font-size: 10px; 
+    }
+    
+    .unselect, .floatingA, #current, #currentDark {
+        padding: 26px 10px; 
+    }
+    
+     
+}
+
+
+@media screen and (max-width: 850px) {
+    
+    
+    .projectImg {
+        height: 400px; 
+    }
+    
+    .projectBlock img {
+        display: block; 
+        bottom: 0px;  
+    }
+    
+    .projectBlock h2 {
+        margin-top: -350px; 
+    }
+    
+    .projectBlock p {
+        width: 590px;
+        margin-top: -40px;
+        text-align: justify; 
+    } 
+    
+    
+}
+
+
+@media screen and (max-width: 675px) {
+    
+    
+    .projectImg {
+        height: 250px; 
+    }
+    
+    .projectBlock img {
+         
+        display: block; 
+        bottom: 0px;  
+    }
+    
+    .projectBlock h2 {
+        margin-top: -210px; 
+    }
+    
+    .projectBlock p {
+        width: 420px;
+        margin-top: -200px; 
+        font-size: 0.9em; 
+        line-height: 18px; 
+        text-align: justify; 
+    } 
+}
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 500px) {
+    
+    /* Cover Section */
+    #welcome em {
+        font-size: 3em; 
+    }
+    
+    #welcome h1 {
+        font-size: 2.3em; 
+    }
+
+    #welcome h2 {
+        font-size: 1.5em;
+    }
+    
+    #scrollDown p {
+         font-size: 20px; 
+    }
+    
+    /* NavBar Section */
+    
+    nav {
+        height: 50px; 
+        margin-top: -50px;
+        width: 100%; 
+    }
+    
+    .main-nav-scrolled {
+        top: 50px; 
+    }
+    
+    nav ul {
+        width: 370px; 
+        height: 0px; 
+        margin-right: 0px; 
+        margin-top: -11px;   
+    }
+    
+    nav a {
+        font-size: 10px; 
+    }
+    
+    .unselect, .floatingA, #current, #currentDark {
+        /*padding: 26px 20px; */
+        padding: 16px 20px;    
+    }  
+    
+    /* About Section */
+    
+    #title h3 {
+        font-size: 1.3em; 
+        padding-top: 20px;    
+    }
+    
+    #about h1 {
+        margin-top: -18px; 
+        font-size: 1.7em; 
+        width: 220px;  
+    }
+    
+    #profPic {
+        width: 200px;
+        height: 200px; 
+         margin-top: -30px; 
+    }
+    
+    #profile {
+        width: 245px; 
+    }
+    
+    #about p {
+        font-size: 1em; 
+        line-height: 20px;
+        width: 300px; 
+    }
+    
+     /* Project Section */
+    
+    #projects h2 {
+        font-size: 1.7em; 
+    }
+    
+    
+    
+    .projectImg {
+        height: 250px; 
+    }
+    
+    .projectBlock img {
+        
+        display: block; 
+        bottom: 0px;  
+    }
+    
+    .projectBlock h2 {
+        margin-top: -210px; 
+    }
+    
+    .projectBlock p {
+        width: 355px;
+        margin-top: -200px; 
+        font-size: 0.9em; 
+        line-height: 18px; 
+        text-align: justify; 
+    }
+}
+
+   
+
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 415px) {
+    
+    nav a {
+        font-size: 1px; 
+    }
+    nav ul {
+        width: 320px;
+    }
+    .unselect, .floatingA, #current, #currentDark {
+        /*padding: 26px 20px; */ 
+        padding: 15px 15px;   
+        padding-bottom: 14px;
+    }  
+    
+    .projectImg {
+        height: 200px; 
+    }
+    
+    .projectBlock h2 {
+        margin-top: -170px; 
+    }
+    
+    .projectBlock p {
+        width: 275px;
+         
+        margin-top: -235px; 
+        font-size: 0.75em; 
+        line-height: 15px;  
+        text-align: justify; 
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 330px) {
+    nav ul {
+        width: 300px; 
+    }
+    
+    .main-nav-scrolled {
+        width: 320px;
+         
+    }
+    
+    .unselect, .floatingA, #current, #currentDark {
+        /*padding: 26px 20px; */
+        padding: 15px 10px;   
+        padding-bottom: 14px; 
+    } 
+    
+    
+    .projectBlock p {
+        width: 270px;
+}
+    
